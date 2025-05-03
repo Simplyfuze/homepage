@@ -87,6 +87,7 @@ body {
 }
 
 .contact-info__block {
+    min-width: 200px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -94,6 +95,7 @@ body {
 
 .contact-info__block--center {
 	justify-content: center;
+    align-items: center;
 }
 
 .contact-info__item {
