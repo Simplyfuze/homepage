@@ -181,8 +181,13 @@ body {
 }
 
 .skills {
+    margin-left: 20px ;
 	display: flex;
 	justify-content: space-around;
+}
+
+.skills__item{
+    min-width: 450px;
 }
 
 /* Experience and additional info styles */
@@ -324,8 +329,15 @@ body {
 		align-items: center;
 	}
 
+    .skills{
+        padding-top: 20px;
+        flex-direction: column;
+        align-items: start;
+    }
 
-
+    .skills__item:first-of-type{
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width: 576px) {
