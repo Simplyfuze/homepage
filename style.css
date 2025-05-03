@@ -176,6 +176,11 @@ body {
 	text-align: justify;
 }
 
+.skills {
+	display: flex;
+	justify-content: space-around;
+}
+
 /* Experience and additional info styles */
 
 .experiences {
