@@ -49,6 +49,10 @@ body {
 }
 
 
+.sep{
+    margin: 10px 0;
+}
+
 /* Contact info styles */
 
 .contact-info__header,
@@ -174,6 +178,11 @@ body {
 .skills__text {
 	color: var(--secondary-text-color);
 	text-align: justify;
+}
+
+.skills {
+	display: flex;
+	justify-content: space-around;
 }
 
 /* Experience and additional info styles */
