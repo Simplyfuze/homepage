@@ -49,6 +49,10 @@ body {
 }
 
 
+.sep{
+    margin: 10px 0;
+}
+
 /* Contact info styles */
 
 .contact-info__header,
